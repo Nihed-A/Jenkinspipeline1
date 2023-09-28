@@ -17,7 +17,7 @@ pipeline {
                     emailext(
                         subject: 'README Content',
                         body: env.README_CONTENT,
-                        to: 'nihed.attia@esprit.tn',
+                        to: 'ons.bensalah@esprit.tn',
                         mimeType: 'text/plain'
                     )
            }
